@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailDevResource.AppHost", "MailDevResource.AppHost\MailDevResource.AppHost.csproj", "{86F35D10-2FC9-4D1B-A56D-B8958C62A13D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailDevResource.ServiceDefaults", "MailDevResource.ServiceDefaults\MailDevResource.ServiceDefaults.csproj", "{FC915CE6-B7D3-4C68-9383-527A90413572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailDev.Hosting", "MailDev.Hosting\MailDev.Hosting.csproj", "{ADBB2B5A-BCBA-44DE-AF76-F3DAAD9AB7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailDevResource.NewsletterService", "MailDevResource.NewsletterService\MailDevResource.NewsletterService.csproj", "{9194F0ED-9838-4F13-BEF3-8182E3C9AA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailKit.Client", "MailKit.Client\MailKit.Client.csproj", "{7F8622F8-E9FD-4D00-9BCF-01A389FC533B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F35D10-2FC9-4D1B-A56D-B8958C62A13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F35D10-2FC9-4D1B-A56D-B8958C62A13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F35D10-2FC9-4D1B-A56D-B8958C62A13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F35D10-2FC9-4D1B-A56D-B8958C62A13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC915CE6-B7D3-4C68-9383-527A90413572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC915CE6-B7D3-4C68-9383-527A90413572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC915CE6-B7D3-4C68-9383-527A90413572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC915CE6-B7D3-4C68-9383-527A90413572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBB2B5A-BCBA-44DE-AF76-F3DAAD9AB7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBB2B5A-BCBA-44DE-AF76-F3DAAD9AB7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBB2B5A-BCBA-44DE-AF76-F3DAAD9AB7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBB2B5A-BCBA-44DE-AF76-F3DAAD9AB7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9194F0ED-9838-4F13-BEF3-8182E3C9AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9194F0ED-9838-4F13-BEF3-8182E3C9AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9194F0ED-9838-4F13-BEF3-8182E3C9AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9194F0ED-9838-4F13-BEF3-8182E3C9AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8622F8-E9FD-4D00-9BCF-01A389FC533B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8622F8-E9FD-4D00-9BCF-01A389FC533B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8622F8-E9FD-4D00-9BCF-01A389FC533B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8622F8-E9FD-4D00-9BCF-01A389FC533B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830C2936-5FD0-45DF-A8BE-036E92A3607B}
+	EndGlobalSection
+EndGlobal
